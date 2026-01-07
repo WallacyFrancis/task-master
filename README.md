@@ -67,4 +67,4 @@ Este projeto foi desenvolvido para fins de portfólio. Sinta-se livre para usar 
 
 ---
 
-Desenvolvido por [Wallacy Francis] [LinkedIn](https://www.linkedin.com/in/wallacy-francis/) | [Workana]([Seu Perfil Workana](https://www.workana.com/freelancer/3d6646538cc22ee4df5234abb95cf5a5))
+Desenvolvido por Wallacy Francis [LinkedIn](https://www.linkedin.com/in/wallacy-francis/) | [Workana](https://www.workana.com/freelancer/3d6646538cc22ee4df5234abb95cf5a5))
