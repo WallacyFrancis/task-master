@@ -45,9 +45,12 @@
 - [x] Visual: "Best Value" highlight.
 
 ### ⏳ Phase 5: Polish & Mobile (In Progress)
-- [ ] Feature: Mobile Menu (Sheet/Drawer).
-- [ ] Responsive Check: Ensure stacking on mobile ( < 768px).
-- [ ] Optimization: Lighthouse Check (Images, SEO tags).
+- [x] Feature: Mobile Menu (Sheet/Drawer).
+- [x] Responsive Check: Ensure stacking on mobile ( < 768px).
+- [x] Optimization: Lighthouse Check (Images, SEO tags).
+- [ ] SEO: Add metadata to `app/layout.tsx`.
+- [ ] A11Y: Add alt text to images and aria-labels to icon buttons.
+- [ ] Polish: Adjust padding on `app/page.tsx`.
 
 ### ⏳ Phase 6: Deploy
 - [ ] Config: `firebase.json`.
@@ -59,3 +62,23 @@
 - **Text Secondary:** `text-slate-400`
 - **Primary:** `violet-600` (Hover: `violet-500`)
 - **Radius:** `rounded-xl` or `rounded-2xl`
+
+## Current Task: Phase 5 - Polish & Mobile
+
+### Plan:
+1.  **Install Dependencies**: Install `framer-motion` and `lucide-react` for animations and icons.
+2.  **Refactor `Navbar.tsx`**:
+    *   Implement a mobile-responsive navigation drawer.
+    *   Use `framer-motion` for smooth enter/exit animations.
+    *   Add a hamburger icon that animates to an "X".
+    *   Ensure body scroll is locked when the menu is open.
+3.  **Update `app/layout.tsx`**:
+    *   Inject comprehensive SEO metadata, including title, description, keywords, and Open Graph tags.
+4.  **Enhance Accessibility**:
+    *   Audit all images for descriptive `alt` text.
+    *   Ensure icon-only buttons have `aria-label` attributes.
+5.  **Perform Responsive Polish**:
+    *   Adjust vertical padding on main sections in `app/page.tsx` for better mobile spacing.
+6.  **Final Code Quality Check**:
+    *   Run `npm run lint -- --fix` to automatically correct any linting errors.
+
