@@ -7,7 +7,7 @@
 **Deploy Target:** Firebase Hosting.
 
 ## 2. Current Status
-**Phase:** 🚀 Phase 4: Pricing & Logic (In Progress)
+**Phase:** 🚀 Phase 5 (Polish & Mobile) In Progress
 **Last Update:** Core navigation and hero section implementation.
 **Build Status:** Not Started
 
@@ -38,13 +38,13 @@
 - [x] Component: `FeaturesGrid` (Bento-grid style or 3-column card layout).
 - [x] Component: `FeatureCard` with hover effects.
 
-### 🚀 Phase 4: Pricing & Logic (In Progress)
+### ✅ Phase 4: Pricing & Logic [x] Done
 - [x] Component: `PricingSection`.
 - [x] Logic: Toggle Switch (Monthly/Yearly state).
 - [x] Data: Pricing array map.
 - [x] Visual: "Best Value" highlight.
 
-### ⏳ Phase 5: Polish & Mobile
+### ⏳ Phase 5: Polish & Mobile (In Progress)
 - [ ] Feature: Mobile Menu (Sheet/Drawer).
 - [ ] Responsive Check: Ensure stacking on mobile ( < 768px).
 - [ ] Optimization: Lighthouse Check (Images, SEO tags).
