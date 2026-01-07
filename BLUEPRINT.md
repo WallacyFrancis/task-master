@@ -7,27 +7,29 @@
 **Deploy Target:** Firebase Hosting.
 
 ## 2. Current Status
-**Phase:** 🏗️ Phase 1: Foundation (In Progress)
-**Last Update:** Project Initialization
+**Phase:** 🚀 Phase 2: Hero & Navbar (In Progress)
+**Last Update:** Core navigation and hero section implementation.
 **Build Status:** Not Started
 
 ## 3. Architecture & File Structure Strategy
 * `app/page.tsx`: Main landing page (Single Page Application feel).
 * `app/layout.tsx`: Root layout with font configuration (Inter) and global styles.
 * `components/ui/*`: Atom components (Button, Badge, Card).
-* `components/sections/*`: specific landing page sections (Hero, Features, Pricing, Footer).
+* `components/layout/*`: Layout components (Navbar, Footer).
+* `components/sections/*`: Specific landing page sections (Hero, Features, Pricing, Footer).
 
 ## 4. Implementation Roadmap
 
-### ✅ Phase 1: Foundation (In Progress)
+### ✅ Phase 1: Foundation [x] Done
 - [x] Initialize Next.js project with TypeScript & Tailwind.
 - [x] Configure `GEMINI.md` rules.
-- [ ] Configure `layout.tsx` (Metadata, Inter Font, Base Global CSS).
-- [ ] Define Tailwind Config (Colors: Slate-950 bg, Violet-600 primary).
+- [x] Configure `layout.tsx` (Metadata, Inter Font, Base Global CSS).
+- [x] Define Tailwind Config (Colors: Slate-950 bg, Violet-600 primary).
 
-### ⏳ Phase 2: The Hero Section (High Impact)
-- [ ] Component: `Navbar` (Logo, Links, CTA).
-- [ ] Component: `Hero` (H1, Subtext, Dual CTA, Mockup Image).
+### 🚀 Phase 2: The Hero Section (In Progress)
+- [ ] Component: `components/ui/Button.tsx`
+- [ ] Component: `components/layout/Navbar.tsx` (Logo, Links, CTA).
+- [ ] Component: `components/sections/HeroSection.tsx` (H1, Subtext, Dual CTA, Mockup Image).
 - [ ] Feature: Framer Motion entrance animations.
 - [ ] Design: Glow effects and gradients.
 
