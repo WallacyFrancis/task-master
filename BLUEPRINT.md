@@ -7,7 +7,7 @@
 **Deploy Target:** Firebase Hosting.
 
 ## 2. Current Status
-**Phase:** 🏗️ Phase 1: Foundation & Setup
+**Phase:** 🏗️ Phase 1: Foundation (In Progress)
 **Last Update:** Project Initialization
 **Build Status:** Not Started
 
@@ -19,9 +19,9 @@
 
 ## 4. Implementation Roadmap
 
-### ✅ Phase 1: Foundation (Current Focus)
-- [ ] Initialize Next.js project with TypeScript & Tailwind.
-- [ ] Configure `GEMINI.md` rules.
+### ✅ Phase 1: Foundation (In Progress)
+- [x] Initialize Next.js project with TypeScript & Tailwind.
+- [x] Configure `GEMINI.md` rules.
 - [ ] Configure `layout.tsx` (Metadata, Inter Font, Base Global CSS).
 - [ ] Define Tailwind Config (Colors: Slate-950 bg, Violet-600 primary).
 
