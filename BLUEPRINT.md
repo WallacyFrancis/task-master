@@ -1,0 +1,59 @@
+# BLUEPRINT.md - TaskMaster Project Roadmap & State
+
+## 1. Project Overview
+**Name:** TaskMaster (SaaS Landing Page)
+**Goal:** A high-conversion landing page for an AI-powered task management tool. Designed as a premium portfolio piece for Workana.
+**Tech Stack:** Next.js 14 (App Router), TypeScript, Tailwind CSS, Framer Motion, Lucide React.
+**Deploy Target:** Firebase Hosting.
+
+## 2. Current Status
+**Phase:** 🏗️ Phase 1: Foundation & Setup
+**Last Update:** Project Initialization
+**Build Status:** Not Started
+
+## 3. Architecture & File Structure Strategy
+* `app/page.tsx`: Main landing page (Single Page Application feel).
+* `app/layout.tsx`: Root layout with font configuration (Inter) and global styles.
+* `components/ui/*`: Atom components (Button, Badge, Card).
+* `components/sections/*`: specific landing page sections (Hero, Features, Pricing, Footer).
+
+## 4. Implementation Roadmap
+
+### ✅ Phase 1: Foundation (Current Focus)
+- [ ] Initialize Next.js project with TypeScript & Tailwind.
+- [ ] Configure `GEMINI.md` rules.
+- [ ] Configure `layout.tsx` (Metadata, Inter Font, Base Global CSS).
+- [ ] Define Tailwind Config (Colors: Slate-950 bg, Violet-600 primary).
+
+### ⏳ Phase 2: The Hero Section (High Impact)
+- [ ] Component: `Navbar` (Logo, Links, CTA).
+- [ ] Component: `Hero` (H1, Subtext, Dual CTA, Mockup Image).
+- [ ] Feature: Framer Motion entrance animations.
+- [ ] Design: Glow effects and gradients.
+
+### ⏳ Phase 3: Social Proof & Features
+- [ ] Component: `SocialProof` (Logo strip of trusted companies).
+- [ ] Component: `FeaturesGrid` (Bento-grid style or 3-column card layout).
+- [ ] Component: `FeatureCard` with hover effects.
+
+### ⏳ Phase 4: Pricing & Logic
+- [ ] Component: `PricingSection`.
+- [ ] Logic: Toggle Switch (Monthly/Yearly state).
+- [ ] Data: Pricing array map.
+- [ ] Visual: "Best Value" highlight.
+
+### ⏳ Phase 5: Polish & Mobile
+- [ ] Feature: Mobile Menu (Sheet/Drawer).
+- [ ] Responsive Check: Ensure stacking on mobile ( < 768px).
+- [ ] Optimization: Lighthouse Check (Images, SEO tags).
+
+### ⏳ Phase 6: Deploy
+- [ ] Config: `firebase.json`.
+- [ ] Action: Build & Deploy to Firebase Hosting.
+
+## 5. Design System Tokens (Quick Reference)
+- **Bg:** `bg-slate-950`
+- **Text Primary:** `text-slate-50`
+- **Text Secondary:** `text-slate-400`
+- **Primary:** `violet-600` (Hover: `violet-500`)
+- **Radius:** `rounded-xl` or `rounded-2xl`
