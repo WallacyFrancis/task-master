@@ -7,7 +7,7 @@
 **Deploy Target:** Firebase Hosting.
 
 ## 2. Current Status
-**Phase:** 🚀 Phase 3: Social Proof & Features (In Progress)
+**Phase:** 🚀 Phase 4: Pricing & Logic (In Progress)
 **Last Update:** Core navigation and hero section implementation.
 **Build Status:** Not Started
 
@@ -33,16 +33,16 @@
 - [x] Feature: Framer Motion entrance animations.
 - [x] Design: Glow effects and gradients.
 
-### 🚀 Phase 3: Social Proof & Features (In Progress)
-- [ ] Component: `SocialProof` (Logo strip of trusted companies).
-- [ ] Component: `FeaturesGrid` (Bento-grid style or 3-column card layout).
-- [ ] Component: `FeatureCard` with hover effects.
+### ✅ Phase 3: Social Proof & Features [x] Done
+- [x] Component: `SocialProof` (Logo strip of trusted companies).
+- [x] Component: `FeaturesGrid` (Bento-grid style or 3-column card layout).
+- [x] Component: `FeatureCard` with hover effects.
 
-### ⏳ Phase 4: Pricing & Logic
-- [ ] Component: `PricingSection`.
-- [ ] Logic: Toggle Switch (Monthly/Yearly state).
-- [ ] Data: Pricing array map.
-- [ ] Visual: "Best Value" highlight.
+### 🚀 Phase 4: Pricing & Logic (In Progress)
+- [x] Component: `PricingSection`.
+- [x] Logic: Toggle Switch (Monthly/Yearly state).
+- [x] Data: Pricing array map.
+- [x] Visual: "Best Value" highlight.
 
 ### ⏳ Phase 5: Polish & Mobile
 - [ ] Feature: Mobile Menu (Sheet/Drawer).
