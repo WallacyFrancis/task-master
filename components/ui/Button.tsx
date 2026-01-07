@@ -18,6 +18,9 @@ const buttonVariants = cva(
         md: 'h-10 px-4 py-2',
         lg: 'h-11 px-8',
       },
+      fullWidth: {
+        true: 'w-full',
+      },
     },
     defaultVariants: {
       variant: 'primary',
@@ -31,10 +34,10 @@ export interface ButtonProps
     VariantProps<typeof buttonVariants> {}
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant, size, ...props }, ref) => {
+  ({ className, variant, size, fullWidth, ...props }, ref) => {
     return (
       <button
-        className={twMerge(buttonVariants({ variant, size, className }))}
+        className={twMerge(buttonVariants({ variant, size, fullWidth, className }))}
         ref={ref}
         {...props}
       />
