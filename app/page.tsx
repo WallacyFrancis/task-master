@@ -11,16 +11,16 @@ export default function Home() {
     <main className="bg-slate-950">
       <Navbar />
       <HeroSection />
-      <div className="py-16 md:py-24">
+      <div className="py-16 md:py-12">
         <SocialProof />
       </div>
-      <div className="py-16 md:py-24">
+      <div className="py-16 md:py-12">
         <Features />
       </div>
-      <div className="py-16 md:py-24">
+      <div className="py-16 md:py-12">
         <PricingSection />
       </div>
-      <div className="py-16 md:py-24">
+      <div className="py-16 md:py-12">
         <CTASection />
       </div>
       <Footer />

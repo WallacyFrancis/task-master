@@ -59,10 +59,10 @@ export const HeroSection = () => {
               variants={itemVariants}
               className='mt-8 flex flex-wrap justify-center gap-4 lg:justify-start'
             >
-              <Button size='lg' variant='primary'>
+              <Button size='lg' variant='primary' className='cursor-pointer'>
                 Get Started Free
               </Button>
-              <Button size='lg' variant='outline'>
+              <Button size='lg' variant='outline' className='cursor-pointer'>
                 Learn More
               </Button>
             </motion.div>

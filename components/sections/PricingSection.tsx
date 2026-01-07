@@ -134,7 +134,7 @@ export const PricingSection = () => {
                       ? 'secondary'
                       : 'ghost'
                   }
-                  className="w-full"
+                  className="w-full cursor-pointer"
                 >
                   {plan.name === 'Enterprise'
                     ? 'Contact Sales'

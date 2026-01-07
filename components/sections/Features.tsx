@@ -37,7 +37,7 @@ const Features = () => {
           {features.map((feature) => (
             <div
               key={feature.title}
-              className={`group bg-slate-900/50 border border-slate-800 rounded-2xl p-8 hover:border-violet-500/50 transition-colors ${feature.colSpan}`}
+              className={`group bg-slate-900/50 border border-slate-800 rounded-2xl p-8 hover:border-violet-500/50 transition-colors ${feature.colSpan} cursor-pointer hover:bg-slate-900/40`}
             >
               <div className="text-violet-500 mb-4">{feature.icon}</div>
               <h3 className="text-xl font-bold text-slate-50 mb-2">{feature.title}</h3>
