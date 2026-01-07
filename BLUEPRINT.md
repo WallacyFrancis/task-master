@@ -7,7 +7,7 @@
 **Deploy Target:** Firebase Hosting.
 
 ## 2. Current Status
-**Phase:** 🚀 Phase 2: Hero & Navbar (In Progress)
+**Phase:** 🚀 Phase 3: Social Proof & Features (In Progress)
 **Last Update:** Core navigation and hero section implementation.
 **Build Status:** Not Started
 
@@ -26,14 +26,14 @@
 - [x] Configure `layout.tsx` (Metadata, Inter Font, Base Global CSS).
 - [x] Define Tailwind Config (Colors: Slate-950 bg, Violet-600 primary).
 
-### 🚀 Phase 2: The Hero Section (In Progress)
-- [ ] Component: `components/ui/Button.tsx`
-- [ ] Component: `components/layout/Navbar.tsx` (Logo, Links, CTA).
-- [ ] Component: `components/sections/HeroSection.tsx` (H1, Subtext, Dual CTA, Mockup Image).
-- [ ] Feature: Framer Motion entrance animations.
-- [ ] Design: Glow effects and gradients.
+### ✅ Phase 2: The Hero Section [x] Done
+- [x] Component: `components/ui/Button.tsx`
+- [x] Component: `components/layout/Navbar.tsx` (Logo, Links, CTA).
+- [x] Component: `components/sections/HeroSection.tsx` (H1, Subtext, Dual CTA, Mockup Image).
+- [x] Feature: Framer Motion entrance animations.
+- [x] Design: Glow effects and gradients.
 
-### ⏳ Phase 3: Social Proof & Features
+### 🚀 Phase 3: Social Proof & Features (In Progress)
 - [ ] Component: `SocialProof` (Logo strip of trusted companies).
 - [ ] Component: `FeaturesGrid` (Bento-grid style or 3-column card layout).
 - [ ] Component: `FeatureCard` with hover effects.
